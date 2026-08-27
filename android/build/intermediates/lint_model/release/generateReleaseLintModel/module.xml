@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/masashi/mapconductor/react-sdk/reactnative-for-tomtom/android"
+    name=":mapconductor_reactnative-for-tomtom"
+    type="LIBRARY"
+    maven="MapConductor Basic:mapconductor_reactnative-for-tomtom:unspecified"
+    agpVersion="8.12.0"
+    buildFolder="build"
+    bootClassPath="/Users/Shared/Android/sdk/platforms/android-37.0/android.jar:/Users/Shared/Android/sdk/build-tools/35.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-37"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
