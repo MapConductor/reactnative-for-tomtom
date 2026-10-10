@@ -37,6 +37,8 @@ final class TomTomReactNativeHost: MCReactNativeMapHost {
     }()
 
     var mcServiceRegistry: MutableMapServiceRegistry { state.serviceRegistry }
+    /// 地図ホストは `MapViewCoordinatorBase` なので、そのまま差し出せる。
+    var mcStyleHost: MapViewStyleHost? { mapHost.styleHost }
     var mcCameraZoom: Double { state.cameraPosition.zoom }
 
     func mcMakeMapView(content: MapViewContent) -> UIView {
