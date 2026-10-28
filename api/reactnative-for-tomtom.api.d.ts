@@ -54,4 +54,5 @@ interface TomTomMapViewProps extends MapViewBaseProps<TomTomViewStateInterface> 
  */
 declare function TomTomMapView(props: TomTomMapViewProps): React.JSX.Element;
 
-export { type NativeTomTomViewEvent, type NativeTomTomViewProps, type TomTomMap, TomTomMapView, TomTomMapViewHolder, type TomTomMapViewProps, type TomTomMapViewRef, TomTomViewController, type TomTomViewControllerInterface };
+export { TomTomMapView, TomTomMapViewHolder, TomTomViewController };
+export type { NativeTomTomViewEvent, NativeTomTomViewProps, TomTomMap, TomTomMapViewProps, TomTomMapViewRef, TomTomViewControllerInterface };
