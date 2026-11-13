@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   #   source 'https://api.tomtom.com/maps-sdk-ios/cocoapods'
   # を足す必要がある点だけ他プロバイダと違う。依存の書き方自体は素直な s.dependency。
   s.dependency "React-Core"
-  s.dependency "MapConductorCore", "~> 1.3.0"
+  s.dependency "MapConductorCore", "~> 1.4"
   s.dependency "MapConductorReactNativeCore"
   s.dependency "MapConductorReactMarkerClustering"
-  s.dependency "MapConductorForTomTom", "~> 1.3.0"
+  s.dependency "MapConductorForTomTom", "~> 1.4"
 end
